@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+   background-color: whitesmoke;
+}
+h1{
+    display: inline-block;
+    font-size:50px;
+}
+img{
+    height: 70%;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    margin-left:1rem;
+    vertical-align: middle;
+}
+.main-logo{
+    height: 100px;
+}
