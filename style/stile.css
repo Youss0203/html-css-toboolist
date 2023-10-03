@@ -6,7 +6,9 @@
 header{
    background-color: white;
 }
-
+body{
+    background-color: rgb(240, 240, 240);
+}
 
 h1{
     display: inline-block;
@@ -23,10 +25,10 @@ img{
 }
 
 .main-list{
-    max-width: 80%;
+    max-width: 50%;
     margin:auto;
     margin-top:5rem;
-
+    background-color: white;
 }
 .primi-bottoni{
     padding:1rem;
@@ -37,7 +39,6 @@ h3{
 }
 
 .spunta{
-    background-color: blue;
     color: green;
     border-radius: 50%;
     padding:.1rem;
@@ -48,7 +49,6 @@ h3{
 
 }
 .non-svolto{
-    background-color: white;
     color:red;
     border-radius: 50%;
     padding:.1rem;
@@ -61,4 +61,60 @@ h3{
 }
 p{
     margin-top:1rem;
+}
+
+.button-blue{
+    background-color: cornflowerblue;
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.button-violet{
+    background-color: blueviolet;
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.button-acquamarine{
+    background-color: aquamarine;
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.button-arancione{
+    background-color: orange;
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.button-fucsia{
+    background-color: fuchsia;
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.button-green{
+    background-color: rgb(73, 151, 73);
+    color:white;
+    padding: .2rem;
+    border-radius: .5rem;
+
+}
+.first-button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+
+.second-button{
+    background-color: white;
+    color: cornflowerblue;
+    padding: .3rem;
+    border-radius: .5rem;
 }
