@@ -6,39 +6,44 @@
 header{
    background-color: white;
 }
-body{
+main{
     background-color: rgb(240, 240, 240);
+    padding-top: 2rem;
 }
 
 h1{
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    font-size:30px;
+    font-size:3.5rem;
     vertical-align: middle;
 }
 img{
-    height: 70%;
+    height: 80%;
     vertical-align: middle;
 }
 .main-logo{
     height: 100px;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .main-list{
-    max-width: 50%;
+    max-width: 70%;
     margin:auto;
-    margin-top:5rem;
+    margin-top:1rem;
     background-color: white;
 }
 .primi-bottoni{
-    padding:1rem;
+    padding:1rem 5rem;
+    border-bottom: 1px solid lightgrey;
 }
+
 
 h3{
     margin-top:2rem;
 }
 
 .spunta{
+    border: 1px solid green;
     color: green;
     border-radius: 50%;
     padding:.1rem;
@@ -49,6 +54,7 @@ h3{
 
 }
 .non-svolto{
+    border:1px solid red;
     color:red;
     border-radius: 50%;
     padding:.1rem;
@@ -67,6 +73,7 @@ p{
     background-color: cornflowerblue;
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 }
 
@@ -74,6 +81,7 @@ p{
     background-color: blueviolet;
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 }
 
@@ -81,6 +89,7 @@ p{
     background-color: aquamarine;
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 }
 
@@ -88,6 +97,7 @@ p{
     background-color: orange;
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 }
 
@@ -95,6 +105,7 @@ p{
     background-color: fuchsia;
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 }
 
@@ -102,6 +113,7 @@ p{
     background-color: rgb(73, 151, 73);
     color:white;
     padding: .2rem;
+    border: none;
     border-radius: .5rem;
 
 }
@@ -109,12 +121,15 @@ p{
     background-color: cornflowerblue;
     color: white;
     padding: .3rem;
+    border: none;
     border-radius: .5rem;
+    margin-right: .5rem;
 }
 
 .second-button{
     background-color: white;
-    color: cornflowerblue;
+    color: lightgray;
     padding: .3rem;
+    border: none;
     border-radius: .5rem;
 }
